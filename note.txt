@@ -1,0 +1,7 @@
+protoc
+    -I proto  обши путь к папке с proto файлами
+    proto/sso/sso.proto    путь  к  proto файлу
+    --go_out=./gen/go путь к папке сгенерированных файлов
+    --go_opt=paths=source_relative сгенерировать файлы в папке gen/go
+    --go-grpc_out=./gen/go сгенерировать grpc
+    --go-grpc_opt=paths=source_relative сгенерировать файлы в папке gen/go
