@@ -1,4 +1,4 @@
-module protos
+module github.com/antibomberman/nic_protoc
 
 go 1.21.2
 
